@@ -1,0 +1,442 @@
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.banner-section {
+  padding: 100px 0;
+}
+
+/* Additional CSS for other sections as needed */
+
+.container{
+    width: 1140px;
+}
+
+a, a:hover{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+h1, h2 ,h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+
+
+}
+/* main css */
+.header-section .navbar{
+    background-color: #F0FFF0;
+
+}
+.header-section .nav-link{
+     color:black;
+     margin-left: 30px; 
+}
+
+.header-section .button{
+     margin-top: 0px;
+    
+    }
+    
+.header-section .button a{
+     background: #21B573;
+     color: #fff;
+      /* padding: 10px 30px; */
+      border-radius: 35px;
+      font-size: 14px;
+      border-color: #21B573;
+      transition: 0.5s;
+    }
+.header-section .button a:hover{ 
+    color:white;
+     background: #56548c;
+     border-color:#56548c;
+     transition: 0.5s;
+    } 
+ 
+    
+     /* bannar section */
+
+.banner-section{
+    background-color: #F0FFF0;
+   width: 100%;
+   height: 90vh;
+   padding:80px 0px;
+} 
+.banner-section h6{
+
+color: red;
+}
+.banner-section h1{
+   font-size: 48px;
+    font-weight: 700;
+   text-align: left;
+   
+
+}
+.banner-section h1 span{
+color: #21B573;
+
+}
+
+.banner-section p{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 40px;
+  
+    text-align: left;
+padding: 15px 0px;
+}
+.banner-section .main-part img{
+   width: 100%;
+
+}
+.banner-section .btn-success{
+border-radius: 30px;
+color:white;
+background: #21B573;
+border-color:#21B573;
+transition: 0.5s;
+font-family: 'Roboto', sans-serif;
+padding: 10px 40px;
+}
+.banner-section .btn-success:hover{
+    border-radius: 30px;
+    color:white;
+    background: #56548c;
+    border-color:#56548c;
+    transition: 0.5s;
+    
+    }
+    
+
+
+/* second part */
+.other-part{
+    width: 100%;
+   padding: 80px 0px;
+   background:#F8FFFB ;
+}
+.other-part .inner-part{
+  background: #F8FFFB;
+   text-align: center; 
+padding: 50px 0px;
+}
+.other-part .inner-part:hover{
+    background: #F8FFFB;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 10px;
+    
+  }
+
+.other-part .inner-part img{
+    
+width: 75px;
+height: 85px;
+margin-bottom: 15px;
+
+}
+.other-part .inner-part h4{
+  font-size: 24px;
+  margin: 5px;
+ font-weight: 500; 
+}
+
+.other-part .inner-part p{
+  font-size: 16px;
+
+}
+
+/* second part end */
+
+/* curse part  start */
+
+.courses-section{
+     width: 100%;
+    padding: 75px 0px;
+
+}
+.courses-section .title { 
+    text-align:center ;
+     padding: 70px 0px;         
+
+}
+
+.courses-section  h3{  
+  font-weight: 700;
+  font-size: 36px;
+  color: #413960;
+
+}
+
+.courses-section .catagories .catagories-a{
+background: #F8FFFB; 
+padding: 50px 10px 60px;
+
+}
+.courses-section .catagories .catagories-a:hover{
+background: #F8FFFB; 
+padding: 50px 10px 60px;
+
+}
+
+.courses-section .catagories img{
+    width: 331px;
+    height: 234px;
+  padding: 20px 10px;
+}
+.courses-section .catagories h4{
+  font-size: 26px;
+   padding: 20px 0px;
+ color:#56548c;
+}
+.courses-section .catagories p{
+   font-size: 16px;
+    
+}
+.courses-section .catagories .btn-success{
+ border-radius: 33px;
+color:white;
+background: #21B573;
+border-color:#21B573;
+transition: 0.5s;
+  font-family: 'Roboto', sans-serif;
+ padding:12px 30px;
+}
+.courses-section .catagories .btn-success:hover{
+    border-radius: 33px;
+    color:white;
+    background: #56548c;
+    border-color:#56548c;
+    transition: 0.5s;
+    
+ }
+
+.courses-section .catagories-a {   
+padding:40px 0px;
+}
+.courses-section .catagories-a img{   
+width: 24px;
+height:24px ;
+
+}
+.courses-section .catagories-a span{   
+font-size: 16px;
+
+
+}
+
+.courses-section .course-inner{
+     width: 100%; 
+     height: 85%;
+    padding: 0px 18px;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 20px;
+ 
+}   
+
+/*  Testimonial part start */
+
+.Testimonial-section{
+width: 100%;
+padding: 80px 0px ;
+}
+.Testimonial-section .title{
+ text-align: center;
+}
+.Testimonial-section h1{
+  font-size: 36px;
+  font-weight: 700;
+  color: black;
+}
+.Testimonial-section .pic-t {
+margin: 60px 180px;
+}
+.Testimonial-section img{
+ width: 120px;
+ height: 120px;
+}
+.Testimonial-section .text-t{
+     line-height: 35px;
+    margin: 80px 98px  61px -8px;
+}
+.Testimonial-section p{
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+  
+}
+
+/*  Testimonial part end  */
+/* footre part start */
+.footer-part{
+width: 100%;
+height: 60vh;
+background: #282531;
+padding: 70px 0px;
+}
+.footer-part .para-part{
+color: white;
+
+}
+.footer-part p{
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+
+}
+.footer-part h5{
+color: white;
+font-weight: 700;
+font-size: 18px;
+margin-left: 31px;
+}
+
+.footer-part .part-a{
+   
+}
+.footer-part ul{
+list-style: none;
+color: white;
+line-height: 30px;
+}
+.footer-part ul li{
+font-weight: 400;
+font-size: 16px;
+
+}
+.footer-part .end-part{
+color: white;
+text-align: center;
+padding: 20px 0px;
+}
+.footer-part .end-part p{
+
+  }
+  
+
+/* footer part end */
+
+.header-section .nav-link one {
+  padding: 10px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,144 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    .banner-section h1 {
+        font-size: 43px;
+       }
+       .banner-section p {
+        font-size: 14px;
+        line-height: 32px;
+       }
+       .banner-section .main-part img {
+        width: 33%;
+        margin-top: 40px;
+    }
+    .banner-section .btn-success {
+      padding: 10px 17px;
+      font-size: 12px;
+  }
+    .header-section .button a {
+   padding: 11px 130px;
+      
+  }
+  .other-part .inner-part {
+    padding: 20px 115px;
+    text-align: left;
+}
+    .other-part .inner-part h4 {
+        font-size: 27px;
+        margin-left: -55px;
+    }
+    .other-part .inner-part p {
+        font-size: 19px;
+        margin-left: -47px;
+    }
+    
+    .courses-section  h3 {
+      margin-left: -759px;
+      margin-top: -99px;
+  }
+    .courses-section .course-inner {
+        width: 33%;
+    }
+    .courses-section .catagories p {
+        font-size: 18px;
+    }
+    .Testimonial-section {
+       
+        margin-top: -154px;
+    }
+    .Testimonial-section h1 {
+    margin-left: -749px;
+    }
+    .Testimonial-section p {
+      margin-top: -25px;
+      padding: 0px 27px;
+  }
+    .Testimonial-section .pic-t {
+        margin: 60px 52px;
+    }
+    .Testimonial-section .text-t {
+        
+        margin: 5px -89px  -7px -8px;
+    }
+    .desc{
+      width: 400px;
+    }
+    .footer-part {
+     height: 105vh;
+     
+  }
+    .footer-part .para-part {
+     padding: 0px 45px;
+  }
+  .footer-part p {
+   margin-top: -40px;
+}
+.footer-part .end-part p {
+  font-size: 14px;
+}
+  }
+
+
+ 
